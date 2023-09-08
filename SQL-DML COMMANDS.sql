@@ -1,0 +1,13 @@
+create database university;
+show databases;
+use university;
+create table students(id int,name char(30),age int);
+desc students;
+insert into students values(101,'ram',20);
+select * from students;
+alter table students add gender char(1);
+desc students;
+alter table students drop gender;
+desc students;
+insert into students values(102,'ramesh',21);
+insert into students values(103,'vansh',21);
